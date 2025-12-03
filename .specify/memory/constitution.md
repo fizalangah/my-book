@@ -1,55 +1,58 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: None (initial creation) -> 1.0.0
+Modified principles:
+  - Original "PRINCIPLE_1_NAME" -> "Kid-Friendly Content"
+  - Original "PRINCIPLE_2_NAME" -> "Consistent Characters"
+  - Original "PRINCIPLE_3_NAME" -> "Moral Lesson per Chapter"
+  - Original "PRINCIPLE_4_NAME" -> "Originality"
+Added sections: None
+Removed sections: Principles 5 & 6 placeholders.
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ✅ updated (checked by agent)
+  - .specify/templates/spec-template.md: ✅ updated (checked by agent)
+  - .specify/templates/tasks-template.md: ✅ updated (checked by agent)
+  - .specify/templates/commands/*.md: ✅ updated (checked by agent)
+Follow-up TODOs: None
+-->
+# AI-generated children's story book titled “Friendship” Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Kid-Friendly Content
+Content MUST always be kid-friendly. No violence, bullying, or dark themes are allowed.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Consistent Characters
+Characters Fiza and Hammad MUST stay consistent throughout the story.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Moral Lesson per Chapter
+Each chapter MUST end with a clear moral lesson.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Originality
+The story MUST be original with zero plagiarism.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Development Standards
 
-### [PRINCIPLE_6_NAME]
+- Reading level: Grade 5–7
+- Dialogue MUST be natural and simple
+- Moral of friendship, kindness, and trust MUST be highlighted
 
+## Project Constraints and Success Criteria
 
-[PRINCIPLE__DESCRIPTION]
+**Constraints:**
+- 5 chapters
+- Each chapter develops a part of the friendship story arc
+- Each chapter has a mini-moral
+- Word count per chapter: 400–600
+- Fully automated generation with Claude + SpecKit
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+**Success Criteria:**
+- Story engages children emotionally
+- Characters grow through the story
+- Ending is positive and satisfying
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All changes and updates to the story and its guidelines MUST adhere to the principles and standards outlined in this constitution.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-03 | **Last Amended**: 2025-12-03
